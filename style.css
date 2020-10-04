@@ -116,3 +116,8 @@ body {
 .fa-telegram{
     color: #55acee;
 }
+@media(max-width:666px) {
+    .card {
+        min-width: 350px;
+    }
+}
