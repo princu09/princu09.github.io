@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;1,100;1,200;1,400;1,600&display=swap');
+body {
+    font-family: 'Poppins', sans-serif;
+    background: rgba(255, 153, 255, 0) f;
+    margin: 0;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    color: #505050;
+}
+
+.card {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    position: absolute;
+    border-radius: 20px;
+    box-shadow: 1px 1px 40px rgba(0, 0, 0, 0.1);
+    max-width: 350px;
+    min-height: 600px;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 1.5rem;
+    box-sizing: border-box;
+}
+
+.card img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: solid 10px transparent;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#fff)), -webkit-gradient(linear, left top, right top, color-stop(40%, rgba(255, 96, 96, 0.149)), to(rgba(136, 96, 255, 0.149)));
+    background-image: linear-gradient(#fff, #fff), linear-gradient(90deg, rgba(255, 96, 96, 0.149) 40%, rgba(136, 96, 255, 0.149) 100%);
+    background-clip: padding-box, border-box;
+    background-origin: padding-box, border-box;
+    background-size: 100% 100%, 100% 100%;
+    background-position: center center, center bottom;
+    background-repeat: no-repeat;
+    -webkit-transition: 1s;
+    transition: 1s;
+}
+
+.card img:hover {
+    background-size: 100% 100%, 200% 200%;
+}
+
+.card h2 {
+    margin: 0;
+    padding: 1rem;
+}
+
+.card .title {
+    padding: 0.7rem 1rem;
+    font-size: 14px;
+    font-weight: 600;
+    color: #666;
+}
+
+.card .desc {
+    padding: 1rem 1rem;
+    -webkit-box-ordinal-group: 3;
+    order: 2;
+    text-align: center;
+}
+
+.card .actions {
+    display: -webkit-box;
+    display: flex;
+}
+
+.card .actions button {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    background: none;
+    border: none;
+    font-size: 16px;
+    padding: 0.7rem 1rem;
+    color: #707070;
+    font-weight: 800;
+}
+
+.card .actions i {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+    padding: 10px;
+    border-radius: 50%;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    outline: none;
+    border: none;
+}
+
+.fa-instagram{
+    color: #e4405f;
+}
+.fa-github{
+    color: #131418;
+}
+.fa-twitter{
+    color: #55acee;
+}
+.fa-envelope{
+    color: #34465d;
+}
+.fa-telegram{
+    color: #55acee;
+}
