@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;1,100;1,200;1,400;1,600&display=swap');
+
 body {
     font-family: 'Poppins', sans-serif;
     background: rgba(255, 153, 255, 0) f;
@@ -56,10 +57,27 @@ body {
 }
 
 .card .title {
-    padding: 0.7rem 1rem;
+    padding: 0.7rem 0rem;
     font-size: 14px;
     font-weight: 600;
     color: #666;
+}
+
+.card .projects {
+    font-weight: 600;
+    padding: 0.2rem 0;
+}
+
+.card .projects a {
+    text-decoration: none;
+    color: #666;
+    font-size: 0.9rem;
+    transition: 0.3s color ease-in-out;
+}
+
+.card .projects a:hover {
+    color: orangered;
+    text-decoration: underline;
 }
 
 .card .desc {
@@ -85,7 +103,7 @@ body {
     background: none;
     border: none;
     font-size: 16px;
-    padding: 0.7rem 1rem;
+    padding: 0.7rem 0rem;
     color: #707070;
     font-weight: 800;
 }
@@ -101,21 +119,26 @@ body {
     border: none;
 }
 
-.fa-instagram{
+.fa-instagram {
     color: #e4405f;
 }
-.fa-github{
+
+.fa-github {
     color: #131418;
 }
-.fa-twitter{
+
+.fa-twitter {
     color: #55acee;
 }
-.fa-envelope{
+
+.fa-envelope {
     color: #34465d;
 }
-.fa-telegram{
+
+.fa-telegram {
     color: #55acee;
 }
+
 @media(max-width:666px) {
     .card {
         min-width: 350px;
