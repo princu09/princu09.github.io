@@ -72,13 +72,7 @@ const Navbar = () => {
         >
           {!button ? <BiMenuAltRight /> : <TiTimes />}
         </button>
-        <div
-          className={`nav lg:hidden xs:${
-            button
-              ? "block"
-              : "hidden"
-          }`}
-        >
+        <div className={`nav lg:hidden ${button ? "block" : "hidden"}`}>
           <div className="flex items-center">
             <ul className="flex">
               <NavLink
@@ -86,6 +80,9 @@ const Navbar = () => {
                 className={({ isActive }) =>
                   isActive ? "text-orange-400" : undefined
                 }
+                onClick={() => {
+                  setButton(!button);
+                }}
               >
                 <li>
                   <FaHome className="mx-2" />
@@ -97,6 +94,9 @@ const Navbar = () => {
                 className={({ isActive }) =>
                   isActive ? "text-orange-400" : undefined
                 }
+                onClick={() => {
+                  setButton(!button);
+                }}
               >
                 <li>
                   <AiFillProject className="mx-2" />
@@ -108,6 +108,9 @@ const Navbar = () => {
                 className={({ isActive }) =>
                   isActive ? "text-orange-400" : undefined
                 }
+                onClick={() => {
+                  setButton(!button);
+                }}
               >
                 <li>
                   <FaReact className="mx-2" />
@@ -119,6 +122,9 @@ const Navbar = () => {
                 className={({ isActive }) =>
                   isActive ? "text-orange-400" : undefined
                 }
+                onClick={() => {
+                  setButton(!button);
+                }}
               >
                 <li>
                   <FaInfoCircle className="mx-2" />
