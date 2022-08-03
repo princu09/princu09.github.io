@@ -1,5 +1,5 @@
 import React from "react";
-import { Portfolio } from "../assets";
+import { Portfolio } from "../../assets";
 import { MdDoubleArrow } from "react-icons/md";
 
 const About = () => {
@@ -42,7 +42,7 @@ const About = () => {
           </div>
         </div>
       </div>
-      <div className="skill flex justify-center items-center flex-col my-10">
+      <div className="skill flex justify-center items-center flex-col">
         <p className="text-2xl font-bold border-b-2 border-black pb-2">
           Professional Summary
         </p>
@@ -73,7 +73,7 @@ const About = () => {
           </p>
         </div>
       </div>
-      <div className="skill flex justify-center items-center flex-col my-10">
+      <div className="skill flex justify-center items-center flex-col my-10 mt-28">
         <p className="text-2xl font-bold border-b-2 border-black pb-2">
           Technologies Known
         </p>
