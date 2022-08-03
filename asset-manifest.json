@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.a726acf0.css",
-    "main.js": "/static/js/main.849f0d76.js",
+    "main.css": "/static/css/main.20674549.css",
+    "main.js": "/static/js/main.34bdf981.js",
     "static/media/portfolio.png": "/static/media/portfolio.36b1f347a56e5dbe5a1c.png",
     "static/media/nfg-jwellery.png": "/static/media/nfg-jwellery.70c1b639380814cb806b.png",
     "static/media/tech-nfg.png": "/static/media/tech-nfg.16993a11ae58520dce40.png",
@@ -13,6 +13,7 @@
     "static/media/vector5.png": "/static/media/vector5.ad5a7947ebac8f0ed766.png",
     "static/media/tastimonials-img.png": "/static/media/tastimonials-img.71f773b8a5c4e36f5b16.png",
     "static/media/vector7.png": "/static/media/vector7.342f3b69f8730be9d446.png",
+    "static/media/resume.pdf": "/static/media/resume.4c6f856c305cb15354b5.pdf",
     "static/media/vector2.webp": "/static/media/vector2.288f22e16c68980cc78e.webp",
     "static/media/vector3.png": "/static/media/vector3.e109968b219412805178.png",
     "static/media/vector8.png": "/static/media/vector8.f017516b89d8f13a9c48.png",
@@ -26,12 +27,14 @@
     "static/media/user-experience.png": "/static/media/user-experience.51c45046e7aaa6bc5610.png",
     "static/media/vector11.png": "/static/media/vector11.2ef778b52d17348a6bbb.png",
     "static/media/web-design.png": "/static/media/web-design.e7fdce95b28dd26190f2.png",
+    "static/media/software.png": "/static/media/software.a68f6ac434af1557f4af.png",
+    "static/media/ecommerce_vector.png": "/static/media/ecommerce_vector.7b1642d6d97c128938b2.png",
     "index.html": "/index.html",
-    "main.a726acf0.css.map": "/static/css/main.a726acf0.css.map",
-    "main.849f0d76.js.map": "/static/js/main.849f0d76.js.map"
+    "main.20674549.css.map": "/static/css/main.20674549.css.map",
+    "main.34bdf981.js.map": "/static/js/main.34bdf981.js.map"
   },
   "entrypoints": [
-    "static/css/main.a726acf0.css",
-    "static/js/main.849f0d76.js"
+    "static/css/main.20674549.css",
+    "static/js/main.34bdf981.js"
   ]
 }
