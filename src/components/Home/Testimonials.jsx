@@ -27,7 +27,7 @@ const Testimonials = () => {
             <p className="drop-shadow-md  text-2xl font-medium text-cyan-500">
               Testimonials
             </p>
-            <p className="drop-shadow-md my-5 lg:text-4xl  text-3xl font-bold text-slate-700">
+            <p className="drop-shadow-md my-5 lg:text-3xl text-2xl font-bold text-slate-700">
               Happy Clients Feedback
             </p>
           </div>

@@ -28,7 +28,7 @@ const Expertise = () => {
           <p className="drop-shadow-md  text-2xl font-medium text-cyan-500">
             My Expertise
           </p>
-          <p className="drop-shadow-md my-5 lg:text-4xl text-3xl font-bold text-slate-700">
+          <p className="drop-shadow-md my-5 lg:text-3xl text-2xl font-bold text-slate-700">
             Provide Wide Range of Digital Services
           </p>
         </div>

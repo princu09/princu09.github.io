@@ -6,7 +6,7 @@ import { Cv } from "../../assets";
 
 const Skill = () => {
   return (
-    <div className="relative">
+    <div className="relative overflow-x-hidden">
       <img
         src={Vector2}
         alt=""
@@ -62,10 +62,10 @@ const Skill = () => {
           </div>
         </div>
         <div className="lg:w-1/2 w-full my-20">
-          <p className="drop-shadow-md  text-2xl font-medium text-cyan-500">
+          <p className="drop-shadow-md text-2xl font-medium text-cyan-500">
             My Skills
           </p>
-          <p className="drop-shadow-md my-5 lg:text-4xl text-3xl font-bold text-slate-700">
+          <p className="drop-shadow-md my-5 lg:text-3xl text-2xl font-bold text-slate-700">
             Beautiful & Unique Digital Experiences
           </p>
           <p className="text-lg text-gray-500">

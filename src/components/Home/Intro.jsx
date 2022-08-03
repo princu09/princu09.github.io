@@ -24,7 +24,7 @@ const Intro = () => {
             <p className="my-5 text-6xl">
               I'm <span className="text-orange-400">Prince.</span>
             </p>
-            <p className="my-5 lg:text-4xl text-3xl text-slate-700">
+            <p className="my-5 lg:text-3xl text-2xl text-slate-700">
               Full Stack Developer
             </p>
           </div>

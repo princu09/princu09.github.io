@@ -29,7 +29,7 @@ const CreativeWorks = () => {
             <p className="drop-shadow-md text-2xl font-medium text-cyan-500">
               Creative Works
             </p>
-            <p className="drop-shadow-md my-5 lg:text-4xl text-3xl font-bold text-slate-700">
+            <p className="drop-shadow-md my-5 lg:text-3xl text-2xl font-bold text-slate-700">
               Check My Portfolio
             </p>
           </div>
