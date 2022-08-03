@@ -5,10 +5,20 @@ import { BsFillGrid1X2Fill, BsFileEarmarkCodeFill } from "react-icons/bs";
 const PortfolioCard = ({ id, project, sortDesc, img, preview }) => {
   return (
     <div className="rounded-xl shadow-xl">
-      <img src={img[0]} className="rounded-t-xl" alt="" />
-      <div className="p-4 flex flex-col rounded-lg">
-        <p className="text-2xl font-medium mb-2">{project}</p>
-        <p className="text-sm">{sortDesc.substring(0, 100)}...</p>
+      <div className="relative">
+        <img
+          src={img[0]}
+          className="rounded-t-xl object-cover lg:h-52 xs:h-auto"
+          alt=""
+        />
+      </div>
+      <div className="p-4 flex flex-col justify-around rounded-lg h-48">
+        <div>
+          <p className="text-2xl font-medium mb-2">{project}</p>
+        </div>
+        <div>
+          <p className="text-sm">{sortDesc.substring(0, 50)}...</p>
+        </div>
         <div className="flex gap-5">
           <Link to={`/portfolio/${id}`}>
             <button className="flex items-center px-2 mt-4">

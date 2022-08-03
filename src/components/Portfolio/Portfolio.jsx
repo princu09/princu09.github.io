@@ -14,7 +14,7 @@ const Portfolio = () => {
             My Whole Project Works
           </p>
         </div>
-        <div className="grid lg:grid-cols-3 xs:grid-cols-1 gap-5 mt-10">
+        <div className="grid lg:grid-cols-3 xs:grid-cols-1 gap-10 mt-10">
           {portfolio.map((item) => (
             <>
               <PortfolioCard

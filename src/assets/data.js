@@ -120,11 +120,16 @@ export const portfolio = [
       "https://github.com/princu09/admin-dashboard-reactjs/raw/Main/ss/2.png",
     ],
     project: "Admin Dashboard",
-    sortDesc: `Admin Dashboard UI create using ReactJS & Syncfusion UI`,
+    sortDesc: `Admin Dashboard UI create using ReactJS & Syncfusion UI 
+    • Involved designing in web pages using HTML5, CSS3, JavaScript, TailwindCSS, React.js, Redux, Context API.
+    • Implemented various screens for the front end using React.js and used various predefined components from NPM (Node Package Manager) and redux library.
+    • Worked in using React JS components, Events, Keys, Router, Animations, and Flux concept.
+    • Used React JS for templating for faster compilation and developing reusable components.
+    • Used Syncfusion Component , Tailwind Css, Charts for create beautiful UI.
+    • Have deploy Site on github pages.
+    `,
     preview: "princu09.github.io/admin-dashboard-reactjs/",
     source: "https://github.com/princu09/admin-dashboard-reactjs",
-    command:
-      "git clone https://github.com/princu09/admin-dashboard-reactjs.git",
     readme: [
       {
         heading: "Download",
@@ -176,6 +181,61 @@ export const portfolio = [
       {
         heading: "Tailwindcss",
         details: "https://tailwindcss.com/docs/guides/create-react-app",
+      },
+    ],
+  },
+  {
+    id: "dr-finder",
+    img: [
+      "https://github.com/princu09/dr-finder/raw/main/ss/5%20home.png",
+      "https://github.com/princu09/dr-finder/raw/main/ss/7%20profile.png",
+      "https://github.com/princu09/dr-finder/raw/main/ss/15%20bill.png",
+      "https://github.com/princu09/dr-finder/raw/main/ss/24%20admin.png",
+      "https://github.com/princu09/dr-finder/raw/main/ss/26%20Screenshot%202022-04-04%20at%209.46.25%20AM.png",
+    ],
+    project: "Dr.Finder & Book An Appointment",
+    sortDesc: `• Dr.Find & Book Appoinment project is the simpliefied and general book doctor system which helps patient to find doctor to the our collabareted clinics & doctor. This project also covers various features like online booking of the appointment , view reports. Medicines , invoice.
+    • Dr.Finder & Book Appoinment system will hold the details of the patient & book appointment records. It saves times as it allows online book appointment as patient are no longer have to wait in a queue or have to book the doctor’s appointment.
+    • Admin is the the main authority who can do addition ,deletion, and modification of users , doctor, medical , if required. The project has been planned to be having the view of distributed architecture, with centralized storage of the database.
+    • Dr.Finder is web application for book a find doctor and book appointment. Patient Find Doctor for particular deases and get appointment for him. Doctor will appeare request for ap- pointment of patient , doctor accept appointment and give time to patient.
+    `,
+    preview: "princu09.github.io/cloud-app-reactjs/",
+    source: "https://github.com/princu09/cloud-app-reactjs/",
+    readme: [
+      {
+        heading: "Download",
+        details: "git clone https://github.com/princu09/dr-finder.git",
+      },
+      {
+        heading: "Direct Zip",
+        details:
+          "https://github.com/princu09/dr-finder/archive/refs/heads/Main.zip",
+      },
+    ],
+  },
+
+  {
+    id: "cloud-app-reactjs",
+    img: [
+      "https://github.com/princu09/cloud-app-reactjs/raw/Main/ss/1.png",
+      "https://github.com/princu09/cloud-app-reactjs/raw/Main/ss/2.png",
+      "https://github.com/princu09/cloud-app-reactjs/raw/Main/ss/3.png",
+      "https://github.com/princu09/cloud-app-reactjs/raw/Main/ss/4.png",
+      "https://github.com/princu09/cloud-app-reactjs/raw/Main/ss/5.png",
+    ],
+    project: "Cloud App",
+    sortDesc: `Cloud App UI create using ReactJS & Tailwindcss`,
+    preview: "princu09.github.io/cloud-app-reactjs/",
+    source: "https://github.com/princu09/cloud-app-reactjs/",
+    readme: [
+      {
+        heading: "Download",
+        details: "git clone https://github.com/princu09/cloud-app-reactjs.git",
+      },
+      {
+        heading: "Direct Zip",
+        details:
+          "https://github.com/princu09/cloud-app-reactjs/archive/refs/heads/Main.zip",
       },
     ],
   },
