@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.20674549.css",
-    "main.js": "/static/js/main.34bdf981.js",
+    "main.css": "/static/css/main.3f896b45.css",
+    "main.js": "/static/js/main.3671bd8b.js",
     "static/media/portfolio.png": "/static/media/portfolio.36b1f347a56e5dbe5a1c.png",
     "static/media/nfg-jwellery.png": "/static/media/nfg-jwellery.70c1b639380814cb806b.png",
     "static/media/tech-nfg.png": "/static/media/tech-nfg.16993a11ae58520dce40.png",
@@ -30,11 +30,11 @@
     "static/media/software.png": "/static/media/software.a68f6ac434af1557f4af.png",
     "static/media/ecommerce_vector.png": "/static/media/ecommerce_vector.7b1642d6d97c128938b2.png",
     "index.html": "/index.html",
-    "main.20674549.css.map": "/static/css/main.20674549.css.map",
-    "main.34bdf981.js.map": "/static/js/main.34bdf981.js.map"
+    "main.3f896b45.css.map": "/static/css/main.3f896b45.css.map",
+    "main.3671bd8b.js.map": "/static/js/main.3671bd8b.js.map"
   },
   "entrypoints": [
-    "static/css/main.20674549.css",
-    "static/js/main.34bdf981.js"
+    "static/css/main.3f896b45.css",
+    "static/js/main.3671bd8b.js"
   ]
 }
