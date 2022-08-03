@@ -1,6 +1,7 @@
 import React from "react";
 import { Portfolio } from "../../assets";
 import { MdDoubleArrow } from "react-icons/md";
+import { Cv } from "../../assets";
 
 const About = () => {
   return (
@@ -10,7 +11,9 @@ const About = () => {
           <img src={Portfolio} className="w-10/12" alt="" />
         </div>
         <div className="flex justify-center flex-col">
-          <p className="text-3xl font-medium">Hello, I am Prince K. Patel</p>
+          <p className="text-3xl font-medium text-cyan-500">
+            Hello, I am Prince K. Patel
+          </p>
           <p className="my-5 font-medium text-gray-500 text-sm">
             Over 3+ years of IT experience which includes 1+ years of Extensive
             experience as a React JS Developer and 2 years of Experience as a
@@ -38,12 +41,14 @@ const About = () => {
                 pri2232@outlook.com
               </a>
             </p>
-            <button className="w-40">Download CV</button>
+            <a href={Cv} download>
+              <button className="w-40">Download CV</button>
+            </a>
           </div>
         </div>
       </div>
-      <div className="skill flex justify-center items-center flex-col">
-        <p className="text-2xl font-bold border-b-2 border-black pb-2">
+      <div className="skill flex justify-center items-center flex-col xs:mt-10 lg:mt-0">
+        <p className="text-center drop-shadow-md text-2xl font-medium text-cyan-500">
           Professional Summary
         </p>
         <div className="font-medium lg:w-10/12 xs:w-full mt-5">
@@ -74,7 +79,7 @@ const About = () => {
         </div>
       </div>
       <div className="skill flex justify-center items-center flex-col my-10 mt-28">
-        <p className="text-2xl font-bold border-b-2 border-black pb-2">
+        <p className="text-center drop-shadow-md text-2xl font-medium text-cyan-500">
           Technologies Known
         </p>
         <div className="font-medium lg:w-10/12 xs:w-full mt-5 grid lg:grid-cols-4 grid-cols-2 gap-5">

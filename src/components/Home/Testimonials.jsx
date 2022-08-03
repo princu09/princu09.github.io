@@ -4,36 +4,10 @@ import { Testi, Vector10, Vector9 } from "../../assets";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import SwiperCore, { Autoplay } from "swiper";
+import { reviews } from "../../assets/data";
 
 const Testimonials = () => {
   SwiperCore.use([Autoplay]);
-
-  const reviews = [
-    {
-      name: "Prince Patel",
-      postion: "Client",
-      review:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, aperiam expedita, omnis sapiente corrupti amet illo nulla voluptatibus quisquam ab impedit corporis rerum dolorem sunt facere eligendi cumque, esse minus?",
-    },
-    {
-      name: "Gaurav Barot",
-      postion: "Client",
-      review:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, aperiam expedita, omnis sapiente corrupti amet illo nulla voluptatibus quisquam ab impedit corporis rerum dolorem sunt facere eligendi cumque, esse minus?",
-    },
-    {
-      name: "Harsh Shah",
-      postion: "Client",
-      review:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, aperiam expedita, omnis sapiente corrupti amet illo nulla voluptatibus quisquam ab impedit corporis rerum dolorem sunt facere eligendi cumque, esse minus?",
-    },
-    {
-      name: "Tathagat Kashyap",
-      postion: "Client",
-      review:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, aperiam expedita, omnis sapiente corrupti amet illo nulla voluptatibus quisquam ab impedit corporis rerum dolorem sunt facere eligendi cumque, esse minus?",
-    },
-  ];
 
   return (
     <div className="relative bg-slate-200">
@@ -43,7 +17,6 @@ const Testimonials = () => {
         alt=""
       />
       <img src={Vector9} className="opacity-25 w-96 absolute right-0" alt="" />
-
 
       <div className="flex justify-center items-center h-full w-screen lg:px-32 px-5 flex-col lg:flex-row lg:py-10">
         <div className="w-1/2 flex justify-center items-center order-2 my-10">
@@ -75,7 +48,9 @@ const Testimonials = () => {
                 return (
                   <SwiperSlide>
                     <div className="mt-10">
-                      <p className="text-gray-400 text-lg xl:text-xl">{item.review}</p>
+                      <p className="text-gray-400 text-lg xl:text-xl">
+                        {item.review}
+                      </p>
                       <p className="text-lg xl:text-2xl text-black font-medium mt-5">
                         ~ {item.name} | {item.postion}
                       </p>

@@ -18,12 +18,12 @@ const CreativeWorks = () => {
           <img
             src={Vector8}
             alt=""
-            className="w-1/3 absolute lg:-left-32 lg:-top-56 -top-10"
+            className="w-1/3 absolute lg:-left-32 lg:-top-56 -top-10 opacity-50"
           />
           <img
             src={Vector1}
             alt=""
-            className="w-1/3 absolute lg:-right-80 -right-20 rotate-12 -top-0 "
+            className="w-1/3 absolute lg:-right-80 -right-20 rotate-12 -top-0 opacity-50"
           />
           <div className="text-center mt-10 pt-10">
             <p className="drop-shadow-md text-2xl font-medium text-cyan-500">

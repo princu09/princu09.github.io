@@ -6,9 +6,14 @@ const Work = () => {
   return (
     <>
       <div className="h-full flex justify-center items-center flex-col lg:p-32 xs:py-20 xs:px-5">
-        <p className="text-2xl font-medium border-b-2 border-black pb-3">
-          Work Experience
-        </p>
+        <div className="text-center">
+          <p className="drop-shadow-md text-xl font-medium text-cyan-500">
+            Work Experiance
+          </p>
+          <p className="drop-shadow-md my-5 text-2xl font-bold text-slate-700">
+            My Work Journey
+          </p>
+        </div>
         <div className="mt-10">
           {work.map((item, index) => {
             return (

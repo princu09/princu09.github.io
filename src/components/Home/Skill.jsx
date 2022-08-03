@@ -2,6 +2,7 @@ import React from "react";
 import { buildStyles, CircularProgressbar } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
 import { Vector2 } from "../../assets";
+import { Cv } from "../../assets";
 
 const Skill = () => {
   return (
@@ -9,7 +10,7 @@ const Skill = () => {
       <img
         src={Vector2}
         alt=""
-        className="opacity-50 absolute lg:w-3/12 lg:right-0 lg:-bottom-10 bottom-1/2 right-0 -z-10"
+        className="lg:opacity-50 xs:opacity-20 absolute lg:w-1/4 xs:w-2/3 lg:-left-10 lg:-bottom-10 xs:bottom-1/3 xs:-right-10 -z-10"
       />
       <div className="w-full h-full lg:py-20 flex lg:justify-between lg:items-center lg:px-32 flex-col lg:flex-row px-10 mb-10">
         <div className="lg:w-1/2 w-full grid grid-cols-2 gap-5 order-2 xl:ml-20">
@@ -48,14 +49,14 @@ const Skill = () => {
           <div className="shadow-xl rounded-xl lg:p-10 lg:w-60 lg:h-60 w-40 h-40 p-2 flex flex-col justify-center items-center">
             <CircularProgressbar
               strokeWidth={5}
-              value={70}
-              text="70%"
+              value={85}
+              text="85%"
               styles={buildStyles({
                 pathColor: "navy",
                 textColor: "navy",
               })}
             />
-            <p className="mt-2 font-medium text-lg text-gray-600">
+            <p className="mt-2 font-medium text-lg text-center text-gray-600">
               App Developement
             </p>
           </div>
@@ -76,7 +77,9 @@ const Skill = () => {
             Quia voluptas sit aspernatur aut odit aut fugit, sed ruiano
             consequntar magni dolores.
           </p>
-          <button className="rounded-full py-3">Download CV</button>
+          <a href={Cv} download>
+            <button className="rounded-full py-3">Download CV</button>
+          </a>
         </div>
       </div>
     </div>

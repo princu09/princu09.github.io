@@ -7,6 +7,7 @@ import {
   BsInstagram,
   BsFillEnvelopeFill,
 } from "react-icons/bs";
+import { Link } from "react-router-dom";
 
 const Intro = () => {
   return (
@@ -27,35 +28,47 @@ const Intro = () => {
               Full Stack Developer
             </p>
           </div>
-          <button>Contact</button>
+          <Link to="/about">
+            <button>Contact</button>
+          </Link>
 
           <div className="social-media flex absolute bottom-10">
             <a
-              href="/"
+              target="_blank"
+              rel="noreferrer"
+              href="//twitter.com/princu09"
               className="text-xl px-3 text-slate-500 hover:text-[#1DA1F2] drop-shadow-lg"
             >
               <BsTwitter />
             </a>
             <a
-              href="/"
+              target="_blank"
+              rel="noreferrer"
+              href="//linkedin.com/in/princu09/"
               className="text-xl px-3 text-slate-500 hover:text-[#0A66C2] drop-shadow-lg"
             >
               <BsLinkedin />
             </a>
             <a
-              href="/"
+              target="_blank"
+              rel="noreferrer"
+              href="//github.com/princu09"
               className="text-xl px-3 text-slate-500 hover:text-[#333] drop-shadow-lg"
             >
               <BsGithub />
             </a>
             <a
-              href="/"
+              target="_blank"
+              rel="noreferrer"
+              href="//instagram.com/princu09"
               className="text-xl px-3 text-slate-500 hover:text-[#E4405F] drop-shadow-lg"
             >
               <BsInstagram />
             </a>
             <a
-              href="/"
+              target="_blank"
+              rel="noreferrer"
+              href="mailto:pri2232@outlook.com"
               className="text-xl px-3 text-slate-500 hover:text-[#FF6600] drop-shadow-lg"
             >
               <BsFillEnvelopeFill />

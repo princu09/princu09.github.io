@@ -1,5 +1,13 @@
 import React from "react";
-import { Navbar, Home, Footer, About , Work , Portfolio } from "./components/";
+import {
+  Navbar,
+  Home,
+  Footer,
+  About,
+  Work,
+  Portfolio,
+  SingleCard,
+} from "./components/";
 // eslint-disable-next-line
 import "swiper/css/bundle";
 import { Routes, Route } from "react-router-dom";
@@ -11,6 +19,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="/portfolio/:id" element={<SingleCard />} />
         <Route path="/work" element={<Work />} />
         <Route path="/About" element={<About />} />
       </Routes>

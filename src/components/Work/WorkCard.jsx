@@ -22,7 +22,7 @@ const WorkCard = ({
           <p className="font-medium">{location}</p>
         </div>
         <div className="">
-          <p className="text-2xl font-medium">{project}</p>
+          <p className="text-2xl font-medium text-cyan-500">{project}</p>
           <p className="text-lg font-medium text-gray-500 my-3">
             Role : {role}
           </p>

@@ -18,15 +18,15 @@ const GetInTouch = () => {
           </p>
         </div>
         <div className="grid lg:grid-cols-3 grid-cols-1 lg:gap-10 justify-center items-center">
-          <div className="bg-orange-300 rounded-lg py-10 my-10">
+          <div className="bg-orange-100 rounded-lg py-10 my-10">
             <div className="flex items-center justify-start p-5 drop-shadow-md">
               <div className="bg-white w-14 h-14 mx-5 rounded-full flex justify-center items-center">
                 <BsPinMap className="text-cyan-500 text-3xl" />
               </div>
               <div className="">
-                <p className="text-md text-white font-bold">Address :</p>
-                <p className="text-lg text-white">Motera , Ahmedabad ,</p>
-                <p className="text-lg text-white">Gujarat , India.</p>
+                <p className="text-md text-black font-bold">Address :</p>
+                <p className="text-lg text-slate-600">Motera , Ahmedabad ,</p>
+                <p className="text-lg text-slate-600">Gujarat , India.</p>
               </div>
             </div>
             <div className="flex items-center justify-start p-5 drop-shadow-md">
@@ -34,10 +34,10 @@ const GetInTouch = () => {
                 <BsEnvelope className="text-cyan-500 text-3xl" />
               </div>
               <div className="">
-                <p className="text-md text-white font-bold">Email :</p>
+                <p className="text-md text-black font-bold">Email :</p>
                 <a
                   href="mailto:NorthFoxGroup@hotmail.com"
-                  className="text-lg text-white"
+                  className="text-lg text-slate-600"
                 >
                   pri2232@outlook.com
                 </a>
@@ -48,8 +48,8 @@ const GetInTouch = () => {
                 <BsPhoneVibrate className="text-cyan-500 text-3xl" />
               </div>
               <div className="">
-                <p className="text-md text-white font-bold">Phone :</p>
-                <a href="tel:+919033717372" className="text-lg text-white">
+                <p className="text-md text-black font-bold">Phone :</p>
+                <a href="tel:+919033717372" className="text-lg text-slate-600">
                   +91 9033 71 7372
                 </a>
               </div>

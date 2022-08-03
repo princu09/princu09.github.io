@@ -7,9 +7,9 @@ import {
   BsInstagram,
   BsFillEnvelopeFill,
 } from "react-icons/bs";
+import { NavLink } from "react-router-dom";
 
 const Footer = () => {
-
   return (
     <div className="relative overflow-hidden">
       <img src={Vector11} className="absolute top-0 w-64" alt="" />
@@ -19,18 +19,49 @@ const Footer = () => {
         alt=""
       />
       <div className="bg-[#211e39] text-white h-full w-full flex flex-col items-center justify-center lg:px-32 px-5">
-        <p className="text-center lg:text-4xl text-3xl font-medium mt-10">Prince Patel.</p>
+        <p className="text-center lg:text-4xl text-3xl font-medium mt-10">
+          Prince Patel.
+        </p>
         <ul className="flex my-10">
-          <li className="text-slate-500 px-5 border-slate-700 border-r">
-            Home
-          </li>
-          <li className="text-slate-500 px-5 border-slate-700 border-r">
-            Portfolio
-          </li>
-          <li className="text-slate-500 px-5 border-slate-700 border-r">
-            Work
-          </li>
-          <li className="text-slate-500 px-5">About</li>
+          <NavLink
+            to="/"
+            className={({ isActive }) =>
+              isActive ? "text-orange-400" : undefined
+            }
+          >
+            <li className="text-slate-500 px-5 border-slate-700 border-r">
+              Home
+            </li>
+          </NavLink>
+          <NavLink
+            to="/portfolio"
+            className={({ isActive }) =>
+              isActive ? "text-orange-400" : undefined
+            }
+          >
+            <li className="text-slate-500 px-5 border-slate-700 border-r">
+              Portfolio
+            </li>
+          </NavLink>
+          <NavLink
+            to="/work"
+            className={({ isActive }) =>
+              isActive ? "text-orange-400" : undefined
+            }
+          >
+            <li className="text-slate-500 px-5 border-slate-700 border-r">
+              Work
+            </li>
+          </NavLink>
+
+          <NavLink
+            to="/about"
+            className={({ isActive }) =>
+              isActive ? "text-orange-400" : undefined
+            }
+          >
+            <li className="text-slate-500 px-5">About</li>
+          </NavLink>
         </ul>
         <div className="social-media flex mb-20">
           <a

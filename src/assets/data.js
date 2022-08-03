@@ -1,3 +1,30 @@
+export const reviews = [
+  {
+    name: "Prince Patel",
+    postion: "Client",
+    review:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, aperiam expedita, omnis sapiente corrupti amet illo nulla voluptatibus quisquam ab impedit corporis rerum dolorem sunt facere eligendi cumque, esse minus?",
+  },
+  {
+    name: "Gaurav Barot",
+    postion: "Client",
+    review:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, aperiam expedita, omnis sapiente corrupti amet illo nulla voluptatibus quisquam ab impedit corporis rerum dolorem sunt facere eligendi cumque, esse minus?",
+  },
+  {
+    name: "Harsh Shah",
+    postion: "Client",
+    review:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, aperiam expedita, omnis sapiente corrupti amet illo nulla voluptatibus quisquam ab impedit corporis rerum dolorem sunt facere eligendi cumque, esse minus?",
+  },
+  {
+    name: "Tathagat Kashyap",
+    postion: "Client",
+    review:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, aperiam expedita, omnis sapiente corrupti amet illo nulla voluptatibus quisquam ab impedit corporis rerum dolorem sunt facere eligendi cumque, esse minus?",
+  },
+];
+
 export const work = [
   {
     project: "Dr.Finder",
@@ -75,5 +102,81 @@ export const work = [
       "Python , Django , JS , HTML5 , jQuery , Owl Carousel , sqlite3.",
     date: "2020 , Complated",
     location: "Vatva , GIDC A’bad.",
+  },
+];
+
+export const portfolio = [
+  {
+    id: "admin-dashboard-reactjs",
+    img: [
+      "https://github.com/princu09/admin-dashboard-reactjs/raw/Main/ss/1.png",
+      "https://github.com/princu09/admin-dashboard-reactjs/raw/Main/ss/3.png",
+      "https://github.com/princu09/admin-dashboard-reactjs/raw/Main/ss/4.png",
+      "https://github.com/princu09/admin-dashboard-reactjs/raw/Main/ss/5.png",
+      "https://github.com/princu09/admin-dashboard-reactjs/raw/Main/ss/6.png",
+      "https://github.com/princu09/admin-dashboard-reactjs/raw/Main/ss/7.png",
+      "https://github.com/princu09/admin-dashboard-reactjs/raw/Main/ss/8.png",
+      "https://github.com/princu09/admin-dashboard-reactjs/raw/Main/ss/9.png",
+      "https://github.com/princu09/admin-dashboard-reactjs/raw/Main/ss/2.png",
+    ],
+    project: "Admin Dashboard",
+    sortDesc: `Admin Dashboard UI create using ReactJS & Syncfusion UI`,
+    preview: "princu09.github.io/admin-dashboard-reactjs/",
+    source: "https://github.com/princu09/admin-dashboard-reactjs",
+    command:
+      "git clone https://github.com/princu09/admin-dashboard-reactjs.git",
+    readme: [
+      {
+        heading: "Download",
+        details:
+          "git clone https://github.com/princu09/admin-dashboard-reactjs.git",
+      },
+      {
+        heading: "Direct Zip",
+        details:
+          "https://github.com/princu09/admin-dashboard-reactjs/archive/refs/heads/Main.zip",
+      },
+      {
+        heading: "Syncfusion React UI Components",
+        details: "https://ej2.syncfusion.com/react/documentation/introduction/",
+      },
+      {
+        heading: "Someting about Syncfusion",
+        details: `
+        Note : How to Freely Use SyncFusion
+        
+        Follow Some Steps: 
+        
+        Step 1 : Install SyncFusion From Official Website 
+        
+        Step 2 : Add CDN in App.css 
+        
+        This Link ===> @import url("https://cdn.syncfusion.com/ej2/material.css");
+        
+        Step 3 : Open File ===> Project Folder > public > index.html
+        
+        Step 4 : Copy this Code and Add to <Head> Tag.
+        
+        =========================
+        
+        <style>
+        
+        #js-licensing {
+          
+            visibility: hidden;
+      
+            }
+        
+        </style>
+        
+        =========================
+        
+        Step 5 : You are Complate !! Enjoy..🎉`,
+      },
+      {
+        heading: "Tailwindcss",
+        details: "https://tailwindcss.com/docs/guides/create-react-app",
+      },
+    ],
   },
 ];
