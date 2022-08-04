@@ -11,12 +11,14 @@ export { default as Vector8 } from "./img/vector8.png";
 export { default as Vector9 } from "./img/vector9.png";
 export { default as Vector10 } from "./img/vector10.png";
 export { default as Vector11 } from "./img/vector11.png";
-export { default as WebDev } from "./img/coding.png";
-export { default as AppDev } from "./img/ui-design.png";
-export { default as UiUx } from "./img/user-experience.png";
-export { default as WebDesign } from "./img/web-design.png";
-export { default as Software } from "./img/software.png";
-export { default as Ecommerce_Vector } from "./img/ecommerce_vector.png";
+
+export { default as WebDev } from "./img/Web_Development.svg";
+export { default as AppDev } from "./img/mobile_app_development.svg";
+export { default as QA } from "./img/Testing-_QA_Services.svg";
+export { default as Iot } from "./img/iot.svg";
+export { default as Software } from "./img/software_development.svg";
+export { default as Ecommerce_Vector } from "./img/ecommerce.svg";
+
 export { default as CloudApp } from "./img/cloudApp.png";
 export { default as AdminDashboard } from "./img/admin-dashboard.png";
 export { default as Crypto } from "./img/crypto.png";

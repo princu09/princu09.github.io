@@ -6,7 +6,7 @@ import { Cv } from "../../assets";
 
 const Skill = () => {
   return (
-    <div className="relative overflow-x-hidden">
+    <div className="relative overflow-hidden">
       <img
         src={Vector2}
         alt=""
@@ -14,7 +14,7 @@ const Skill = () => {
       />
       <div className="w-full h-full lg:py-20 flex lg:justify-between lg:items-center lg:px-32 flex-col lg:flex-row px-10 mb-10">
         <div className="lg:w-1/2 w-full grid grid-cols-2 gap-5 order-2 xl:ml-20">
-          <div className="shadow-xl rounded-xl lg:p-10 lg:w-60 lg:h-60 w-40 h-40 p-2 flex flex-col justify-center items-center">
+          <div className="shadow-xl rounded-xl lg:p-10 lg:w-60 lg:h-60 w-40 h-40 p-2 flex flex-col justify-center items-cente">
             <CircularProgressbar
               strokeWidth={5}
               value={70}

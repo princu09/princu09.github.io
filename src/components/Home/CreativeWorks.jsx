@@ -1,20 +1,15 @@
 import React from "react";
-import {
-  Vector1,
-  Vector8,
-  CloudApp,
-  AdminDashboard,
-  TechNFG,
-  Ecommerce,
-  NFGJwellery,
-  DrFinder,
-} from "../../assets/";
+import { Vector1, Vector8 } from "../../assets/";
+import { CW } from "../../assets/data";
 
 const CreativeWorks = () => {
   return (
     <>
       <div className="relative">
-        <div className="relative w-full bg-slate-200 overflow-hidden" style={{minHeight : "50vh"}}>
+        <div
+          className="relative w-full bg-slate-200 overflow-hidden"
+          style={{ minHeight: "50vh" }}
+        >
           <img
             src={Vector8}
             alt=""
@@ -33,29 +28,26 @@ const CreativeWorks = () => {
               Check My Portfolio
             </p>
           </div>
-          <ul className="flex justify-center xl:mt-10">
-            <li className="">All</li>
-            <li className="">Web Design</li>
-            <li className="">ReactJS</li>
-            <li className="">Django</li>
+          <ul className="flex justify-center xl:mt-10 controls">
+            <li>All</li>
+            <li>Web Design</li>
+            <li>ReactJS</li>
+            <li>Django</li>
           </ul>
         </div>
         <div className="lg:px-32 lg:-mt-28 -mt-44 mb-20 px-5">
-          <div className="grid lg:grid-cols-3 gap-5">
-            <img src={CloudApp} className="rounded-lg drop-shadow-md" alt="" />
-            <img
-              src={AdminDashboard}
-              className="rounded-lg drop-shadow-md"
-              alt=""
-            />
-            <img
-              src={NFGJwellery}
-              className="rounded-lg drop-shadow-md"
-              alt=""
-            />
-            <img src={Ecommerce} className="rounded-lg drop-shadow-md" alt="" />
-            <img src={TechNFG} className="rounded-lg drop-shadow-md" alt="" />
-            <img src={DrFinder} className="rounded-lg drop-shadow-md" alt="" />
+          <div className="grid lg:grid-cols-3 gap-5 container">
+            {/* For Loop Here */}
+            {CW.map((item, index) => {
+              return (
+                <img
+                  key={index}
+                  src={item.img}
+                  className={`rounded-lg drop-shadow-md ${item.value}`}
+                  alt=""
+                />
+              );
+            })}
           </div>
         </div>
       </div>

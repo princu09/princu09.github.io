@@ -1,11 +1,11 @@
 import React from "react";
 import {
-  AppDev,
-  UiUx,
-  WebDesign,
-  Ecommerce_Vector,
-  Software,
   WebDev,
+  AppDev,
+  QA,
+  Iot,
+  Software,
+  Ecommerce_Vector,
   Vector3,
   Vector5,
 } from "../../assets";
@@ -20,7 +20,7 @@ const Expertise = () => {
       />
       <img
         src={Vector5}
-        className="absolute lg:opacity-50 xs:opacity-20 -bottom-10 left-0 w-52 lg:w-96"
+        className="absolute lg:opacity-50 xs:opacity-20 -bottom-40 -left-40 w-52 lg:w-96"
         alt=""
       />
       <div className="w-full h-full flex flex-col lg:justify-center lg:items-center lg:px-32 px-5 bg-slate-100 pb-10 lg:py-20 py-10">
@@ -33,126 +33,97 @@ const Expertise = () => {
           </p>
         </div>
         <div className="grid lg:grid-cols-3 xs:grid-cols-1 xs:gap-5 lg:gap-16 lg:justify-center lg:items-center">
-          <div className="flex flex-col items-center p-3 mb-2 shadow-lg drop-shadow-lg rounded-md lg:p-5 bg-gray-100">
-            <div className="lg:w-1/2 xs:w-1/4 flex justify-center items-center mx-5">
-              <div className="bg-orange-100 rounded-full w-28 p-5">
-                <img src={UiUx} alt="" className="" />
-              </div>
+          <div className="transition-colors duration-500 hover:bg-white flex flex-col items-center p-3 mb-2 shadow-lg drop-shadow-lg rounded-md lg:p-5">
+            <div className="bg-green-200 rounded-full p-5">
+              <img src={QA} alt="" className="w-10" />
             </div>
             <div>
-              <p className="my-2 text-xl text-center font-bold text-orange-400">
-                UI/UX Design
+              <p className="text-xl text-center font-medium my-5 text-black">
+                Testing & QA Services
               </p>
-              <p className="my-2">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure
-                praesentium modi, sequi nobis ducimus, commodi harum laboriosam
-                nulla eveniet non recusandae quidem doloribus. Impedit minus
-                autem fugit facere? Blanditiis, quasi.
+              <p className="my-2 text-center">
+                Our experts test all solutions and ensuring brilliant
+                performances
               </p>
               <a href="/" className="font-medium lg:text-sm text-cyan-500">
                 Read More...
               </a>
             </div>
           </div>
-          <div className="flex flex-col items-center p-3 mb-2 shadow-lg drop-shadow-lg rounded-md lg:p-5 bg-gray-100">
-            <div className="lg:w-1/2 xs:w-1/4 flex justify-center items-center mx-5">
-              <div className="bg-orange-100 rounded-full w-28 p-5">
-                <img src={WebDesign} alt="" className="" />
-              </div>
+          <div className="transition-colors duration-500 hover:bg-white flex flex-col items-center p-3 mb-2 shadow-lg drop-shadow-lg rounded-md lg:p-5">
+            <div className="bg-pink-100 rounded-full p-5">
+              <img src={Iot} alt="" className="w-10" />
             </div>
             <div>
-              <p className="my-2 text-xl text-center font-bold text-orange-400">
-                Web Design
+              <p className="text-xl text-center font-medium my-5 text-black">
+                Internet of Things
               </p>
-              <p className="my-2">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure
-                praesentium modi, sequi nobis ducimus, commodi harum laboriosam
-                nulla eveniet non recusandae quidem doloribus. Impedit minus
-                autem fugit facere? Blanditiis, quasi.
+              <p className="my-2 text-center">
+                Our experience tailor mindful IoT solutions for your needs
               </p>
               <a href="/" className="font-medium text-sm text-cyan-500">
                 Read More...
               </a>
             </div>
           </div>
-          <div className="flex flex-col items-center p-3 mb-2 shadow-lg drop-shadow-lg rounded-md lg:p-5 bg-gray-100">
-            <div className="lg:w-1/2 xs:w-1/4 flex justify-center items-center mx-5">
-              <div className="bg-orange-100 rounded-full w-28 p-5">
-                <img src={WebDev} alt="" className="" />
-              </div>
+          <div className="transition-colors duration-500 hover:bg-white flex flex-col items-center p-3 mb-2 shadow-lg drop-shadow-lg rounded-md lg:p-5">
+            <div className="bg-purple-100 rounded-full p-5">
+              <img src={WebDev} alt="" className="w-10" />
             </div>
             <div>
-              <p className="my-2 text-xl text-center font-bold text-orange-400">
+              <p className="text-xl text-center font-medium my-5 text-black">
                 Web Developement
               </p>
-              <p className="my-2">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure
-                praesentium modi, sequi nobis ducimus, commodi harum laboriosam
-                nulla eveniet non recusandae quidem doloribus. Impedit minus
-                autem fugit facere? Blanditiis, quasi.
+              <p className="my-2 text-center">
+                Create receptive and interactive websites & designs with us
               </p>
               <a href="/" className="font-medium text-sm text-cyan-500">
                 Read More...
               </a>
             </div>
           </div>
-          <div className="flex flex-col items-center p-3 mb-2 shadow-lg drop-shadow-lg rounded-md lg:p-5 bg-gray-100">
-            <div className="lg:w-1/2 xs:w-1/4 flex justify-center items-center mx-5">
-              <div className="bg-orange-100 rounded-full w-28 p-5">
-                <img src={AppDev} alt="" className="" />
-              </div>
+          <div className="transition-colors duration-500 hover:bg-white flex flex-col items-center p-3 mb-2 shadow-lg drop-shadow-lg rounded-md lg:p-5">
+            <div className="bg-orange-100 rounded-full p-5">
+              <img src={AppDev} alt="" className="w-10" />
             </div>
             <div>
-              <p className="my-2 text-xl text-center font-bold text-orange-400">
+              <p className="text-xl text-center font-medium my-5 text-black">
                 App Development
               </p>
-              <p className="my-2">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure
-                praesentium modi, sequi nobis ducimus, commodi harum laboriosam
-                nulla eveniet non recusandae quidem doloribus. Impedit minus
-                autem fugit facere? Blanditiis, quasi.
+              <p className="my-2 text-center">
+                Get your mobile app ideas enriched with trends and features
               </p>
               <a href="/" className="font-medium text-sm text-cyan-500">
                 Read More...
               </a>
             </div>
           </div>
-          <div className="flex flex-col items-center p-3 mb-2 shadow-lg drop-shadow-lg rounded-md lg:p-5 bg-gray-100">
-            <div className="lg:w-1/2 xs:w-1/4 flex justify-center items-center mx-5">
-              <div className="bg-orange-100 rounded-full w-28 p-5">
-                <img src={Ecommerce_Vector} alt="" className="" />
-              </div>
+          <div className="transition-colors duration-500 hover:bg-white flex flex-col items-center p-3 mb-2 shadow-lg drop-shadow-lg rounded-md lg:p-5">
+            <div className="bg-cyan-100 rounded-full p-5">
+              <img src={Ecommerce_Vector} alt="" className="w-10" />
             </div>
             <div>
-              <p className="my-2 text-xl text-center font-bold text-orange-400">
+              <p className="text-xl text-center font-medium my-5 text-black">
                 Ecommerce Development
               </p>
-              <p className="my-2">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure
-                praesentium modi, sequi nobis ducimus, commodi harum laboriosam
-                nulla eveniet non recusandae quidem doloribus. Impedit minus
-                autem fugit facere? Blanditiis, quasi.
+              <p className="my-2 text-center">
+                Get your next futuristic ecommerce solutions built from us
               </p>
               <a href="/" className="font-medium text-sm text-cyan-500">
                 Read More...
               </a>
             </div>
           </div>
-          <div className="flex flex-col items-center p-3 mb-2 shadow-lg drop-shadow-lg rounded-md lg:p-5 bg-gray-100">
-            <div className="lg:w-1/2 xs:w-1/4 flex justify-center items-center mx-5">
-              <div className="bg-orange-100 rounded-full w-28 p-5">
-                <img src={Software} alt="" className="" />
-              </div>
+          <div className="transition-colors duration-500 hover:bg-white flex flex-col items-center p-3 mb-2 shadow-lg drop-shadow-lg rounded-md lg:p-5">
+            <div className="bg-red-100 rounded-full p-5">
+              <img src={Software} alt="" className="w-10" />
             </div>
             <div>
-              <p className="my-2 text-xl text-center font-bold text-orange-400">
+              <p className="text-xl text-center font-medium my-5 text-black">
                 Software Developement
               </p>
-              <p className="my-2">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure
-                praesentium modi, sequi nobis ducimus, commodi harum laboriosam
-                nulla eveniet non recusandae quidem doloribus. Impedit minus
-                autem fugit facere? Blanditiis, quasi.
+              <p className="my-2 text-center">
+                We ease complex business need through our Software solutions
               </p>
               <a href="/" className="font-medium text-sm text-cyan-500">
                 Read More...

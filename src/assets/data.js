@@ -1,3 +1,31 @@
+import { AdminDashboard , CloudApp , NFGJwellery , Ecommerce , TechNFG , DrFinder } from "./index";
+export const CW = [
+  {
+    img: CloudApp,
+    value: "react",
+  },
+  {
+    img: AdminDashboard,
+    value: "react",
+  },
+  {
+    img: NFGJwellery,
+    value: "web-design",
+  },
+  {
+    img: Ecommerce,
+    value: "react",
+  },
+  {
+    img: TechNFG,
+    value: "django",
+  },
+  {
+    img: DrFinder,
+    value: "django",
+  },
+];
+
 export const reviews = [
   {
     name: "Prince Patel",

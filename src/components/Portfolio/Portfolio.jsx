@@ -15,9 +15,10 @@ const Portfolio = () => {
           </p>
         </div>
         <div className="grid lg:grid-cols-3 xs:grid-cols-1 gap-10 mt-10">
-          {portfolio.map((item) => (
+          {portfolio.map((item, index) => (
             <>
               <PortfolioCard
+                key={index}
                 id={item.id}
                 img={item.img}
                 project={item.project}

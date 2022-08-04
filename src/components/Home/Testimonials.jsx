@@ -44,9 +44,9 @@ const Testimonials = () => {
               }}
               className="mySwiper"
             >
-              {reviews.map((item) => {
+              {reviews.map((item , index) => {
                 return (
-                  <SwiperSlide>
+                  <SwiperSlide key={index}>
                     <div className="mt-10">
                       <p className="text-gray-400 text-lg xl:text-xl">
                         {item.review}
