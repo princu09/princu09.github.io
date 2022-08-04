@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.724c5564.css",
-    "main.js": "/static/js/main.3e44ade3.js",
+    "main.js": "/static/js/main.db7e4ada.js",
     "static/media/portfolio.png": "/static/media/portfolio.36b1f347a56e5dbe5a1c.png",
     "static/media/nfg-jwellery.png": "/static/media/nfg-jwellery.70c1b639380814cb806b.png",
     "static/media/tech-nfg.png": "/static/media/tech-nfg.16993a11ae58520dce40.png",
@@ -31,10 +31,10 @@
     "static/media/ecommerce.svg": "/static/media/ecommerce.693bc99a0de7bb5257a90ecbc16e6d79.svg",
     "index.html": "/index.html",
     "main.724c5564.css.map": "/static/css/main.724c5564.css.map",
-    "main.3e44ade3.js.map": "/static/js/main.3e44ade3.js.map"
+    "main.db7e4ada.js.map": "/static/js/main.db7e4ada.js.map"
   },
   "entrypoints": [
     "static/css/main.724c5564.css",
-    "static/js/main.3e44ade3.js"
+    "static/js/main.db7e4ada.js"
   ]
 }
