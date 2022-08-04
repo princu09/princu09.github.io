@@ -1,4 +1,11 @@
-import { AdminDashboard , CloudApp , NFGJwellery , Ecommerce , TechNFG , DrFinder } from "./index";
+import {
+  AdminDashboard,
+  CloudApp,
+  NFGJwellery,
+  Ecommerce,
+  TechNFG,
+  DrFinder,
+} from "./index";
 export const CW = [
   {
     img: CloudApp,
@@ -136,6 +143,7 @@ export const work = [
 export const portfolio = [
   {
     id: "admin-dashboard-reactjs",
+    code: "react",
     img: [
       "https://github.com/princu09/admin-dashboard-reactjs/raw/Main/ss/1.png",
       "https://github.com/princu09/admin-dashboard-reactjs/raw/Main/ss/3.png",
@@ -214,6 +222,7 @@ export const portfolio = [
   },
   {
     id: "dr-finder",
+    code: "django",
     img: [
       "https://github.com/princu09/dr-finder/raw/main/ss/5%20home.png",
       "https://github.com/princu09/dr-finder/raw/main/ss/7%20profile.png",
@@ -241,9 +250,9 @@ export const portfolio = [
       },
     ],
   },
-
   {
     id: "cloud-app-reactjs",
+    code: "react",
     img: [
       "https://github.com/princu09/cloud-app-reactjs/raw/Main/ss/1.png",
       "https://github.com/princu09/cloud-app-reactjs/raw/Main/ss/2.png",
@@ -264,6 +273,164 @@ export const portfolio = [
         heading: "Direct Zip",
         details:
           "https://github.com/princu09/cloud-app-reactjs/archive/refs/heads/Main.zip",
+      },
+    ],
+  },
+  {
+    id: "cryptoverse-reactjs",
+    code: "react",
+    img: [
+      "https://github.com/princu09/cryptoverse-reactjs/raw/main/ss/1.png",
+      "https://github.com/princu09/cryptoverse-reactjs/raw/main/ss/2.png",
+      "https://github.com/princu09/cryptoverse-reactjs/raw/main/ss/3.png",
+      "https://github.com/princu09/cryptoverse-reactjs/raw/main/ss/4.png",
+    ],
+    project: "Cryptoverse",
+    sortDesc: `Cryptoverse UI create using ReactJS , Rapid API use to fetch data.`,
+    preview: "princu09.github.io/cryptoverse-reactjs/",
+    source: "https://github.com/princu09/cryptoverse-reactjs",
+    readme: [
+      {
+        heading: "Download",
+        details:
+          "git clone https://github.com/princu09/cryptoverse-reactjs.git",
+      },
+      {
+        heading: "Direct Zip",
+        details:
+          "https://github.com/princu09/cryptoverse-reactjs/archive/refs/heads/Main.zip",
+      },
+    ],
+  },
+  {
+    id: "ecommerce-reactjs",
+    code: "react",
+    img: [
+      "https://github.com/princu09/ecommerce-reactjs/raw/main/ss/1.png",
+      "https://github.com/princu09/ecommerce-reactjs/raw/main/ss/5.png",
+      "https://github.com/princu09/ecommerce-reactjs/raw/main/ss/3.png",
+      "https://github.com/princu09/ecommerce-reactjs/raw/main/ss/4.png",
+    ],
+    project: "E-commerce ReactJS",
+    sortDesc: `E-commerce App UI create using ReactJS , Online Backend in Sanity.io , Host on Vercel`,
+    preview: "ecommerce-reactjs-theta.vercel.app",
+    source: "https://github.com/princu09/ecommerce-reactjs",
+    readme: [
+      {
+        heading: "Download",
+        details: "git clone https://github.com/princu09/ecommerce-reactjs.git",
+      },
+      {
+        heading: "Direct Zip",
+        details:
+          "https://github.com/princu09/ecommerce-reactjs/archive/refs/heads/Main.zip",
+      },
+    ],
+  },
+  {
+    id: "netflix-clone-reactjs",
+    code: "react",
+    img: [
+      "https://github.com/princu09/netflix-clone-reactjs/raw/main/screenshot/netflix_1.png",
+      "https://github.com/princu09/netflix-clone-reactjs/raw/main/screenshot/netflix_2.png",
+    ],
+    project: "Netflix Clone ReactJS",
+    sortDesc: `Netflix App UI create using ReactJS , TMDB API Use to get Data`,
+    preview: "ecommerce-reactjs-theta.vercel.app",
+    source: "https://github.com/princu09/netflix-clone-reactjs",
+    readme: [
+      {
+        heading: "Download",
+        details:
+          "git clone https://github.com/princu09/netflix-clone-reactjs.git",
+      },
+      {
+        heading: "Direct Zip",
+        details:
+          "https://github.com/princu09/netflix-clone-reactjs/archive/refs/heads/Main.zip",
+      },
+      {
+        heading: "Documentation",
+        details: `TMDB : Get all Movies Data From TMDB API (The Movies DataBase)
+        https://www.themoviedb.org/documentation/api`,
+      },
+    ],
+  },
+  {
+    id: "ams",
+    code: "flutter",
+    img: [],
+    project: "AMS Flutter",
+    sortDesc: `AMS (Attendance Management System) App UI create using Flutter , Backend in PHP`,
+    preview: "",
+    source: "https://github.com/princu09/ams",
+    readme: [
+      {
+        heading: "Download",
+        details: "git clone https://github.com/princu09/ams.git",
+      },
+      {
+        heading: "Direct Zip",
+        details: "https://github.com/princu09/ams/archive/refs/heads/Main.zip",
+      },
+    ],
+  },
+  {
+    id: "weatherApp-reactjs",
+    code: "react",
+    img: [],
+    project: "WeatherApp reactjs",
+    sortDesc: `Weather App UI create using ReactJS , Weather API use to fetch data.`,
+    preview: "princu09.github.io/weatherapp-reactjs/",
+    source: "https://github.com/princu09/weatherapp-reactjs/",
+    readme: [
+      {
+        heading: "Download",
+        details: "git clone https://github.com/princu09/weatherApp-reactjs.git",
+      },
+      {
+        heading: "Direct Zip",
+        details:
+          "https://github.com/princu09/weatherApp-reactjs/archive/refs/heads/Main.zip",
+      },
+    ],
+  },
+  {
+    id: "nf-notebook-mern",
+    code: "mern",
+    img: [],
+    project: "NF Notebook",
+    sortDesc: `NF Notebook App UI create using ReactJS , Backend also available in MONGODB to store notes.`,
+    preview: "princu09.github.io/weatherapp-reactjs/",
+    source: "https://github.com/princu09/nfnb-frontend",
+    readme: [
+      {
+        heading: "Download Frontend",
+        details: "git clone https://github.com/princu09/nfnb-frontend.git",
+      },
+      {
+        heading: "Download Backend",
+        details: "git clone https://github.com/princu09/nfnb-backend.git",
+      },
+    ],
+  },
+  {
+    id: "whats-viewer",
+    code: "django",
+    img: [],
+    project: "Whatsapp Chat Viewer",
+    sortDesc: `Whatsapp Chat Viewer it's django app. add your chat file and you show a whatsapp ui.`,
+    preview: "",
+    source: "https://github.com/princu09/whats_viewer",
+    readme: [
+      {
+        heading: "Download",
+        details: "git clone https://github.com/princu09/whats_viewer.git",
+      },
+      {
+        heading: "Direct Zip",
+        details:
+          "https://github.com/princu09/whats_viewer/archive/refs/heads/Main.zip",
       },
     ],
   },
